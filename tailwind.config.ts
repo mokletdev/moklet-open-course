@@ -13,7 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        raleway: ["Raleway", "sans-serif"]
+        raleway: ["Raleway", "sans-serif"],
+        quicksand: ["Quicksand", "sans-serif"]
       }
     },
   },

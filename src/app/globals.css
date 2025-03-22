@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -20,4 +22,13 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.slick-dot {
+  background-color: #93C5FD;
+  transition: transform 0.3s ease;
+}
+.slick-active .slick-dot {
+  background-color: #2563EB;
+  transform: scale(1.5);
 }
