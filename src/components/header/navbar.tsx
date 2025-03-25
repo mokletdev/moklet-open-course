@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo or Branding */}
         <div>
-          <Image src="/logo.png" alt="Moklet Open Course" className="h-8" width={140} height={1} />
+          <Image src="/Logo.svg" alt="Moklet Open Course" className="h-8" width={140} height={1} />
         </div>
         {/* Hamburger Menu Icon */}
         <div className="md:hidden">

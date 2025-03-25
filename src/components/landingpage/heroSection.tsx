@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
           {/* Text Content */}
           <div className="text-center md:text-left max-w-xl">
-            <h1 className="text-4xl font-bold text-black mb-4">
+            <h1 className="text-3xl font-semibold text-black mb-4 font-raleway">
               Learn Anytime, <span className="text-blue-600">Grow Anytime</span>
             </h1>
             <p className="text-lg text-gray-700 mb-6">
