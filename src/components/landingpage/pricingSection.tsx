@@ -57,7 +57,7 @@ const PricingSection = () => {
         {/* Layar Mobile */}
         <div className="md:hidden space-y-4">
           {plans.map((plan, index) => (
-            <div key={index} className="border shadow-md rounded-lg">
+            <div key={index} className="border rounded-lg">
               <button className="flex justify-between items-center w-full p-4" onClick={() => togglePlan(index)}>
                 <div className="flex items-center space-x-4">
                   <Image src={plan.icon} alt={plan.name} width={50} height={50} className="hidden sm:block" />
@@ -94,7 +94,7 @@ const PricingSection = () => {
         {/* Layar Desktop */}
         <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {plans.map((plan, index) => (
-            <div key={index} className="border rounded-lg p-6 shadow-md w-full flex flex-col h-[600px]">
+            <div key={index} className="border-2 border-[#E8EEF7] rounded-lg p-6 w-full flex flex-col h-[600px]">
               <div className='border-b border-[#D1D5DB] mb-5'>
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-2xl font-semibold">{plan.name}</h3>
